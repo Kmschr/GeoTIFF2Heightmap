@@ -15,6 +15,9 @@ Covers a larger area than OpenTopography and has multiple resolutions available 
 
 ### Usage
 
+requires libgdal-dev to be installed on linux
+if on windows python with gdal can be installed using [OSGeo4W](https://trac.osgeo.org/osgeo4w/wiki)
+
 `python3 map.py -h` for usage instructions:
 
     usage: map.py [-h] [-o OUTFILE] [-d DOWNSAMPLE] [-v VERTICAL SCALE] [-n] FILE
